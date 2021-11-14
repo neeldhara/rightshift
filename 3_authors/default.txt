@@ -1,0 +1,13 @@
+Title: Authors
+
+----
+
+Text:
+
+Three ex-classmates from KVIISc, Bangalore, now gone their separate ways,hoping to meetup after the apocalypse.
+
+*C. Karthik:* A graduate from IIT-Guwahati with a bachelor’s degree in  Mechanical  Engineering. Attending grad school at UIUC. 
+
+*Neeldhara Misra:* A graduate from IMSc (Chennai), presently at IISc (Bangalore), still trying her hand at algorithm design. 
+
+[*Dileep V. Reddy:*](https://dileepvr.github.io/) A graduate from IIT-Madras with a bachelor’s degree in Electrical Engineering, and a Masters in Communications. Currently pursuing a PhD in Quantum Optics (shooting lasers at avalanche photodiodes) at the University of Oregon.

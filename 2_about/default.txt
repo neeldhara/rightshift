@@ -1,0 +1,7 @@
+Title: About
+
+----
+
+Text: Coming up with a name for a group blog that is meant to last a while is tricky business. Its harder to converge on one in a text-chatroom conference with people you know you have something in common with, but can’t put in words. Needless to say, “>>RIGHTSHIFT” was arrived at because one of us had taking to a fascination with shift-registers, and another pointed out the inherent and ambitious pun, a blog to shift reader mindsets in the right direction. Should this stint become popular, we’ll probably change the name.
+
+The blog itself is a semi-technical dump bin for everything that fancies its authors, be it Science and Technology, Mathematics, Videogames, Programming, Music, or Noodles, to put it crudely.

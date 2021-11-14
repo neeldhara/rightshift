@@ -1,0 +1,17 @@
+Title: >>RightShift
+
+----
+
+Author: 
+
+----
+
+Description: 
+
+----
+
+Keywords: 
+
+----
+
+Copyright: © 2008-(date: Year) >>Rightshift
