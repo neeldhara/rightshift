@@ -7,7 +7,7 @@ Date: June 7th, 2009
 Tags: all cryptonomicon morse perl
 ----
 Text:
-In the novel [*Cryptonomicon*](http://www.harpercollins.com/books/9780060512804/Cryptonomicon/index.aspx?), one of the lead characters finds himself implicated in a (comical) drug bust, and is placed in a jail cell under the watchful (electronic) eyes of hi-tech eavesdroppers. It’s a scene out of a spy novel (although *Cryptonomicon* [isn’t quite that](http://en.wikipedia.org/wiki/Cryptonomicon)), minus the secret agents, plus one savvy Unix sysadmin. He’s given his laptop, to boot...
+In the novel [*Cryptonomicon*](http://www.harpercollins.com/books/9780060512804/Cryptonomicon/index.aspx?), one of the lead characters finds himself implicated in a (comical) drug bust, and is placed in a jail cell under the watchful (electronic) eyes of hi-tech eavesdroppers. It’s a scene out of a spy novel (although *Cryptonomicon* [isn’t quite that](http://en.wikipedia.org/wiki/Cryptonomicon)), minus the secret agents, plus one savvy Unix sysadmin. He’s given his laptop, to boot.
 
 The rest of this lead-up contains spoilers, so skip to the image if you’re the ear-cupping-and-yelling kind.
 
