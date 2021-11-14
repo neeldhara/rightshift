@@ -1,0 +1,270 @@
+Title: It's all very nice to constantly hail Mother Nature's genius, but ...
+----
+Author: K. V. Mohan
+----
+Date: Feb 9th, 2016
+----
+Tags: all biology evolution genetics anatomy mechanical engineering design brain heart lungs kidneys organs chronic ailment infirmity
+----
+Text:
+
+** Author: [K. V. Mohan](http://mohankv.blogspot.in/) (Guest Post) **
+
+It's all very nice to constantly hail Mother Nature's genius, but there are some examples of exceptionally bad (mechanical) engineering in our anatomy.
+
+# The heart
+
+The coronary arteries have no redundancy. If a blockage occurs, any tissue downstream of it becomes damaged or dies <fn id=bn1>[</fn><a href=#fn1>Coronary Anatomy</a>].
+
+Contrast this with the (relative) redundancy of arterial supply to the brain, whose lavish supply isn't just by multiple arteries, but by a full-fledged ring-main system, in which multiple 'sources' and 'sinks' converge to back each other up <fn id=bn2>[</fn><a href=#fn2>Circle of Willis</a>].
+
+Contrast also with organ-level redundancy for the lungs and kidneys. Octopuses and earthworms have it all figured out with multiple hearts, but we appear to have missed the bus <fn id=bn3>[</fn><a href=#fn3>Heterotropic Transplants</a>]. 
+
+This fragile dependence is even more shocking when one considers that other functions of the heart, such a rhythm maintenance, have multiple redundancies. If the primary pacemaker, the sino-atrial node, fails, the atrio-ventricular node picks up seamlessly. If the AV node fails, the Purkinje fibers pick up seamlessly. This redundancy is very nicely executed: all 3 fire signals all the time, but each at a lower frequency than the next, so that the most frequent is the dominant one <fn id=bn4>[</fn><a href=#fn4>Conduction System</a>].
+
+Relatively second-order problems are valve stenoses, where one or more of the heart valves hardens and obstructs flow. Second-order, because usually these are the results of congenital problems, and when not congenital, they mostly manifest only in old age <fn id=bn5>[</fn><a href=#fn5>Stenosis</a>].
+
+
+# The lungs
+
+There are upwards of 700 million alveoli, supplied by one airway that shares a major part of its path with the mouth. This design concept is choking with trouble from the outset. 
+
+Forget everything that people absent-mindedly shove into their mouths, and the futility of one poor epiglottis struggling to keep it all in the right pipes -- in an unconscious person, saliva, vomit or even the flaccid tongue itself may fall back and block the airway <fn id=bn6>[</fn><a href=#fn6>Recovery Position</a>].
+
+Further down the airway, we have the classic problem of engineering features that are inaccessible to the user: 
+
+**Me:** Help! I can't breathe!
+**Nature:** Oh, you're probably experiencing bronchospasm: the small branches of your lower airways are constricting 
+**Me:** How can I stop them?!
+**N:** You can't. The bronchiole walls are all smooth muscle tissue, over which you have no voluntary control <fn id=bn7>[</fn><a href=#fn7>Smooth Muscle Overview</a>]
+**Me:** How the hell do you control them?
+**N:** Via receptors and signalling molecules (among other means). In your particular case, for example, your bronchioles probably constricted because of a cascade of events starting from release of histamine. Histamine H1 receptors on the smooth muscles of the bronchiole walls received the message, and constricted 
+**Me:** Can you expand them again? 
+**N:** Sure, there's an app receptor for that! Those smooth muscles also have adrenergic receptors. If they see adrenaline, or anything else that activates their specific adrenergic receptors, they'll dilate. <fn id=bn8>[</fn><a href=#fn8>Beta-2 Overview</a>]
+**Me:** Ok, I know my body can produce adrenaline. Can I have an emergency release right now, please?
+**N:** Tough luck, son! You'll have to wait till you've figured out how this whole system works and do it yourself from the outside. 
+
+In the last 50 years or so, we have identified chemicals that can activate receptors of various kinds in the body. In effect, the 'user' got access to the 'internal features' only in the last 50 years. In most cases, this access translates to simply dilating or constricting various vessels -- and yet, even this trivial level of control has proven to be of amazing good. For example, for relatively specific action on the bronchioles, Salbutamol (Asthalin) can be used. It activates the Beta-2 receptor in the bronchioles, which causes them to instantly dilate, along with a few other systemic effects. In cases where a broader effect is needed, like during a severe allergic reaction, adrenaline can be injected directly. The same receptor-agonist mechanism is around nearly everywhere (of course there are <fn id=bn9>[</fn><a href=#fn9>Other Mechanisms</a>] as well). Heart rate too fast? Use a Beta-1 blocker, like bisoprolol (Concor). Undesired adrenaline release? No problem, use a general Beta blocker like propranolol (surgeons, music performers and atheletes use this to stop nervous hand tremors <fn id=bn10>[</fn><a href=#fn10>Propranolol</a>]). Saliva/tracheal secretions too high? Use a muscarinic blocker, like glycopyrrolate. Pain? Use an opioid agonist, like tramadol, morphine or fentanyl. Overdosed on that? Use an opioid antagonist, like naloxone. 
+
+The only argument in defense of not giving the 'user' access to these features might be that if the user isn't advanced enough yet to discover how the system works, he isn't ready to fiddle with these internals anyway. Fair enough. Besides, they only work in the short term -- major problems of tolerance, dependence, addiction and worse can crop up if these 'hacks' are used long-term. 
+
+I mentioned earlier that small moving clots (thrombemboli) may be common in the venous system compared to the arterial system, but are mostly harmless. This is because under the right conditions, they make their way into the lungs, where there is a mechanism for breaking them down. <fn id=bn11>[</fn><a href=#fn11>Fibrinolysis</a>]
+
+But if the clots are bigger -- likely if they originate in deep veins like those in the legs, we have a problem. A big clot can be pumped to the lungs and block a major lung artery, raising pressure on the heart and rendering the entire gas-exchange mechanism downstream of the block ineffective <fn id=bn12>[</fn><a href=#fn12>Pulmonary Embolism</a>].
+
+The nuance here is that a clot, big as it may be, isn't usually harmful in its location of origin. For example, a big clot in a leg vein still doesn't completely occlude circulation, and the tissue there doesn't have as critical a need for circulation anyway. The worst symptoms locally are just some pain, swelling and warmness. But when the clot travels to the heart and is pumped to the lungs, central circulation is affected <fn id=bn13>[</fn><a href=#fn13>DVT</a>].
+
+The most obvious solution is to have a filter upstream of the heart, to catch any such errant clot from entering the critical regions. Unfortunately, no such natural filter exists. Artificial filters are being tried, but as with most interventions, the secondary problems more than offset the primary benefits <fn id=bn14>[</fn><a href=#fn14>Vena Cava Filters</a>]. 
+
+# The future of hearts and lungs
+
+The default path to fixing these design problems is to simply work with the system with all its constraints and quirks. Coronary artery block? Bypass surgery. Valve stenosis? Replace the valve. Frequent bronchospasm? Salbutamol, and probably an anti-histamine and a corticosteroid long-term to depress an overactive immune system.
+
+Another path is becoming feasible in the last couple decades: extra-corporeal organ support. We've seen it happen very successfully with dialysis. First it could be done only in hospitals, at high risk. Gradually, it got commoditized as a service with very low risk, where you could walk into a dialysis center and get it done. Finally, miniaturization and individualization will soon allow for people do it themselves, and probably walk around with a kidney dialyzer. 
+
+Heart-lung machines are still in the first stage. Today, it's possible to survive completely independent of the heart and lungs, but only for a couple of weeks at most, like preceding heart transplantation. <fn id=bn15>[</fn><a href=#fn15>ECMO Overview</a>] Cardio-pulmonary bypasses for a few hours are common enough in open-heart surgeries to be called 'routine'. The big concerns (like with dialysis) are the need to avoid blood clotting (and the attendant consequences of using anticoagulants like heparin), damaging blood cells, infections and errors in operation. These machines are still huge, labor intensive and risky.
+
+However, in certain cases, if only the heart has failed, artificial hearts and ventricular assist devices can potentially let a person live for several years with a normal life.
+
+**VIEWER DISCRETION ADVISED; Video of LVAD placement, watch from part 4 to 7**
+(youtube: https://www.youtube.com/watch?v=aDSrwCgdKvg width: 480 height: 320)
+
+Some of the devices available today are unbelievable -- Dick Cheney used a device that could be programmed using WiFi, and there was much discussion on its security&#33; <fn id=bn16>[</fn><a href=#fn16>LVAD Overview</a>]
+
+I have no doubts that miniature, individualized heart-lung machines will become common in the next few decades. I predict that before the centennial of the first human heart transplant by Dr. Christiaan Barnard in 2067, we will have no need for heart transplants at all, or indeed for even our own default biological machinery as far as breathing and circulation are concerned. Our grandchildren will look at heart attacks, cardiac arrests and asthma with the same quaint pity with which we read about vitamin deficiencies killing people. 
+
+# The Brain
+
+Unfortunately, we can't be as sanguine about fixing the engineering problems with the brain. 
+
+The brain isn't actually fixed in the skull; it is suspended in a bath of constantly-circulating cerebro-spinal fluid. The volume of the skull (typ. 1700 ml) is filled by only 3 components: brain tissue (1400 ml), blood inside vessels (150 ml) and circulating CSF (150 ml) <fn id=bn17>[</fn><a href=#fn17>Monro-Kellie Doctrine</a>].
+
+The reason the brain has to be suspended this way is also the root cause of most of its serious problems. Brain tissue is exceptionally sensitive to restrictions in blood flow ("ischemia"), and becomes damaged very quickly. Indeed, of all tissue in the body, brain and spinal tissue are the most sensitive to ischemia, and are damaged in as little as 3 -- 20 minutes of restricted flow (contra several hours for most other tissue). If it did not float, blood vessels supplying the bottom of the brain would be crushed by its weight. Any movements of the head would also compress some vessels. By 'floating' in an equidense liquid, blood flow is independent of position or orientation <fn id=bn18>[</fn><a href=#fn18>CSF</a>].
+
+It doesn't also help that virtually all we recognize as "human" behavior lies in the cortex, the outermost few millimeters of the brain. It is very squishy and pliable, and can be damaged with very little physical force. (link: http://io9.gizmodo.com/what-would-it-really-feel-like-to-touch-a-human-brain-1468231739 text: handling a brain popup: yes) This combination of extreme sensitivity to blood supply, outer location of the most important parts and mechanical weakness generates impossible engineering constraints. No matter how much redundancy you have in blood flow, the slightest bit of pressure on the surface will disrupt local blood flow, and ischemic injury occurs. Even the natural ridges on the skull can be dangerous to the squishy cortex in times of sudden acceleration or deceleration -- it is that sensitive!  
+
+Are we done? Hell no! Here's another feature-bug: Brain tissue will swell with fluid at the slightest provocation, be it mechanical or chemical <fn id=bn19>[</fn><a href=#fn19>Cerebral Edema</a>]. For example, if a small portion of the brain dies due to ischemia, the tissue surrounding it swells, pushing against neighboring tissue, possibly causing more ischemia, and the cycle may propagate. This is one of the ways in which strokes are very dangerous. To make it worse, edema can take several days to develop. This greatly obscures cause and effect in a hospital setting, where likely several problems are occurring at the same time. 
+
+I've saved the worst for the last: in spite of the brain's critical dependence on its circulation, blood is highly irritating to brain tissue ! <fn id=bn20>[</fn><a href=#fn20>Blood Neurotoxic</a>] Blood is separated from most brain tissue by a thin cell-level 'blood brain barrier', that allows only small molecules (oxygen, CO2, alcohol, ...) to pass to and fro. It prevents infections and some poisons from reaching the brain. <fn id=bn21>[</fn><a href=#fn21>BBB Overview</a>] But if blood ever touches brain tissue, forget infection, just blood itself and its inevitable breakdown products cause irritation (manifested sometimes as epileptic discharges), swelling (and the consequent pressure on and ischemia of surrounding tissue) and neuron death. It is utterly bewildering that blood is so necessary, and yet so toxic, to its prime customer. I'll spare you the analogies to romantic love. ययैव ससृजे घोरं तयैव शान्तिरस्तु नः |
+
+Virtually all major mechanical brain issues are either ischemic or hemorrhagic, with the latter often leading up to the former. If blood supply is restricted to a portion of the brain for whatever reason -- a local clot formed, a moving clot was pumped up and got stuck in a brain artery, a growing tumor blocked flow -- we have an ischemic stroke, and an attendant edema response to it. 
+
+If an artery or vein ruptures, we have a hemorrhage problem that follows a different path. If an artery ruptures, blood pools up quickly, in a matter of minutes, because the heart is actively pumping into it. If a vein ruptures, the pooling is slower, over hours and days, sometimes weeks. If the vessel rupture occurs outside the surface of the brain, blood pools and applies pressure on it, causing not just loss of supply to whichever part of the brain the vessel supplied, but also local pressure rise, ischemia and all its attendant consequences. If a vessel ruptures inside the brain, the pressure rise occurs from the inside, with similar consequences PLUS a much larger area becoming irritated and swelling up. In both cases, if the pressure rise is larger enough, the squishy brain can be pushed through the several holes in the skull <fn id=bn22>[</fn><a href=#fn22>Brain Herniation</a>].
+
+Any intervention to prevent risk from ischemia (e.g. anticoagulants to prevent clot formation) greatly increases the risk from hemorrhage, and vice-versa. The ischemic-hemorrhagic balance is so sensitive, so idiosyncratic and so dependent on an impossibly large number of factors of one's biology (liver, kidney, gut bacteria, diet, viral infections ...) that one almost starts believing that every man has a fixed but unknowable life span. 
+
+There doesn't appear to be any particular design flaw in the veins except degradation with age; indeed, the veins are so extensively anastamosed that blockage of even a major one isn't that big of a deal <fn id=bn23>[</fn><a href=#fn23>Cortex Vasculature</a>]. However, one artery, the middle meningeal artery, happens to be located just below the weakest spot in the skull (near the temple). <fn id=bn24>[</fn><a href=#fn24>Epidural Hemorrhage</a>] Half of all epidural hemorrhages occur because of mechanical damage to this region -- in one famous case, Raman Lamba died after a cricket ball hit him here. 
+
+Hold on a minute with the hemorrhaging here -- we said the brain was suspended in a bath of circulating CSF. Might the CSF circulate fast enough to take away any pooled blood?! 
+
+Alas, no. The CSF circulates in a closed system, and very slowly. The CSF is generated in 4 interconnected pouches in the brain called ventricles. It flows through them, around the brain and down the spinal cord. Along its journey, it is reabsorbed. The entire volume of CSF turns over only 3-4 times a day. Contrast with blood, which turns over 1200-1600 times a day. No comparison. 
+
+In fact, the slow CSF circulation and hemorrhages inside the brain present another headache. If a hemorrhage occurs near the ventricles, blood breakdown products and debris might enter them. The tubes connecting the ventricles are very small, and one in particular, the aqueduct of Slyvius, is known to get blocked easily <fn id=bn25>[</fn><a href=#fn25>Aqueductal Stenosis</a>]. Production of CSF doesn't stop in the ventricles as there is no feedback loop or pump involved. If the flow is blocked, it becomes yet another source of pressure in the brain. This is one form of a condition called hydrocephalus.  
+
+What do you do with all this? This mess is very hard to fix, but there are some workarounds. For example, when a surgeon suspects that pressure sources (hemorrhage + potential for edema + CSF blockage + ...) are unmanageable, he might opt for a decompressive craniectomy -- a portion of the skull is sawed off. This breaks the oppressive Monroe-Kellie doctrine, and solves virtually all of the pressure-related problems. People can live without skulls for years. But long-term, not having a solid barrier creates issues with CSF circulation, and obviously falls and accidents become ultra-dangerous. There are some reports of neurological degradation, but very little clarity on the mechanism.
+
+Less invasive procedures exist if the underlying problem is simpler. Say there is an abnormal over-production of CSF, leading to hydrocephalus. A surgeon may insert a simple tube with a pressure-activated check valve to drain the CSF somewhere (say above the stomach) if the pressure exceeds a threshold <fn id=bn26>[</fn><a href=#fn26>EVD</a>]. As usual, this tube could get blocked or infected. Hell, we're in such sensitive territory that forget fixing, just measuring the CSF pressure is fraught with risk <fn id=bn27>[</fn><a href=#fn27>Lumbar Puncture</a>]. This problem is very familiar to any oil engineer -- what is the <fn id=bn28>[</fn><a href=#fn28>Value of Information</a>]? 
+
+Perhaps in the future there will be a way to conduct a craniectomy, construct a much bigger mega-skull around the brain, and control the fluid flow within this mega skull. The pressure-related problems of hemorrhage and pressure-induced ischemia might be solved. We could also flush out any hemorrhage as it happens. However, ischemia from vessel-internal problems like clots and emboli will still exist. Not to mention, standards of beauty will need a dimensional upgrade. 
+
+Perhaps in our advancement as a species, we have outgrown blood. An artificial blood substitute, which does not clot and which does not irritate brain tissue, and yet supplies it with oxygen, nutrients and clears out waste? There are several solutions being attempted, but this is its own kind of extra corporeal support. <fn id=bn29>[</fn><a href=#fn29>Blood Substitutes Overview</a>] Blood is pretty much an organ by itself in the number of functions it performs, as vital as the heart or the lungs. Still, there are fascinating things to be done, like using perfluorocarbons instead of hemoglobin for carrying oxygen. Perfluorocarbons are so good at carrying oxygen that we don't even need to inject them into blood -- we can breathe the liquid directly! Who would have known reading Dan Brown would help someday? <fn id=bn30>[</fn><a href=#fn30>Liquid Ventilation</a>]
+
+Something very interesting to me is that the infrastructure of blood supply appears to be mostly equitable across the cortex. The language areas, for example, do not have any more redundant supply than the area that controls the hands. Of course it makes sense: in the wild, losing a hand is probably as bad or worse than losing language. But in today's world, we would gladly give up some motor functions if memory, personality and language could be retained (exoskeletons are right around the corner!). Might we be able to establish alternate redundant routes of blood (or blood-substitute) supply to those portions of the brain ourselves?
+
+--
+
+I'm conscious of the futility of thinking like this -- I've advanced to the level of complaining about stuff that is literally hardwired into our genetic code, and will take at least a few million years to fix. And yet, after having close family personally experience nearly every one of the conditions mentioned above, I can't get myself to grok how trivial engineering problems can cause such unbearable human trauma. 
+
+At work, we change out a dozens of pumps every week. Filters clog all the time and are routinely replaced. Pressures spike and blow out safety relief valves every few days, bringing backup flow paths into service seamlessly. It is all so mundane and well-understood. 
+
+And yet, when I go home, a slightly narrowed air tube network causes unwatchable suffering. A few mmHg overpressure wipes out decades of memory. A few minutes of pump downtime irreversibly alters dozens of lives. 
+
+How does one live with this?  
+
+
+--
+
+# Postscript
+
+I know next to nothing of several other critical systems -- liver, kidney, pancreas. There's not a whole lot in the realm of mechanical engineering design there, but ultimately most problems there would come down to the same concepts of restriction of blow flow (e.g. liver cirrhosis and portal hypertension), redundancy, etc.. Also, I've said nothing about genetic disorders (esp. autoimmune) or cancer -- these pit man vs himself, so that's another league entirely. These are likely to be the foci and will occupy our mental bandwidth as we slowly fix the easier problems, so life is likely  not going to feel any easier in 2067 or even 2167. Indeed, some of these may be ultimate cause, and the 'easier problems' may be just part of the symptom chain, like say with Marfan syndrome. 
+
+The ultimate questions are of course unanswerable. What is the point of a long life, or indeed any length of life anyway? "That life is worth living is the most necessary of assumptions, and were it not assumed, the most impossible of conclusions." and more caustically, "Millions long for immortality who do not know what to do with themselves on a rainy Sunday afternoon."
+
+किंतु भ्रान्त-पतङ्ग-पक्ष-पवन-व्यालोल-दीपाङ्कुर-च्छाया-चञ्चलम् आकलय्य सकलं सन्तो वनान्तं गताः ... or perhaps, अनित्यम् असुखं लोकम् इमं प्राप्य भजस्व माम् ?
+
+
+**References**
+
+<fn id=fn1><a href=#bn1>^</a>Coronary Anatomy</fn>
+
+[http://www.emedmd.com/content/anatomy-coronary-arteries](http://www.emedmd.com/content/anatomy-coronary-arteries)
+
+More detail: [http://cnx.org/contents/FPtK1zmh@8.1:Y5T_wVSC@4/Heart-Anatomy](http://cnx.org/contents/FPtK1zmh@8.1:Y5T_wVSC@4/Heart-Anatomy), Section "Coronary Arteries"
+
+<fn id=fn2><a href=#bn2>^</a>Circle of Willis</fn>
+
+Circle of Willis in the Brain: [http://emedicine.medscape.com/article/1877617-overview#a1](http://emedicine.medscape.com/article/1877617-overview#a1)
+Though of course, like any ring-main, "rogue sinks" are a problem here too -- at times, an arm may "steal" blood from the brain: [http://emedicine.medscape.com/article/462036-overview](http://emedicine.medscape.com/article/462036-overview)
+Wider context: [https://en.wikipedia.org/wiki/Circle_of_Willis](https://en.wikipedia.org/wiki/Circle_of_Willis)
+
+<fn id=fn3><a href=#bn3>^</a>Heterotropic Transplants</fn>
+
+Getting there ourselves, via a heterotropic heart transplant (where a donor heart is placed in parallel to the recipient's heart), has its own world of pros and cons.
+A positive view: [http://med.stanford.edu/news/all-news/2004/two-hearts-are-better-than-one-for-toddler-who-undergoes-historic-operation.html](http://med.stanford.edu/news/all-news/2004/two-hearts-are-better-than-one-for-toddler-who-undergoes-historic-operation.html) and a less upbeat view: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC324818/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC324818/)
+
+<fn id=fn4><a href=#bn4>^</a>Conduction System</fn>
+
+[http://cnx.org/contents/FPtK1zmh@7.1:MCgS6S0t@3/Cardiac-Muscle-and-Electrical-](http://cnx.org/contents/FPtK1zmh@7.1:MCgS6S0t@3/Cardiac-Muscle-and-Electrical-) Section "Comparative Rates of Conduction System Firing"
+
+<fn id=fn5><a href=#bn5>^</a>Stenosis</fn>
+
+[http://www.heart.org/HEARTORG/Conditions/More/HeartValveProblemsandDisease/Problem-Heart-Valve-Stenosis_UCM_450369_Article.jsp#.VrdmdLI4HDc](http://www.heart.org/HEARTORG/Conditions/More/HeartValveProblemsandDisease/Problem-Heart-Valve-Stenosis_UCM_450369_Article.jsp#.VrdmdLI4HDc)
+
+<fn id=fn6><a href=#bn6>^</a>Recovery Position</fn>
+
+Principles of basic airway management, the 'A' of ABC (Airway-Breathing-Circulation) [https://en.wikipedia.org/wiki/Recovery_position](https://en.wikipedia.org/wiki/Recovery_position)
+More: [https://en.wikipedia.org/wiki/Basic_airway_management](https://en.wikipedia.org/wiki/Basic_airway_management)
+
+<fn id=fn7><a href=#bn7>^</a>Smooth Muscle</fn>
+
+Smooth muscle tissue: [https://en.wikipedia.org/wiki/Smooth_muscle_tissue](https://en.wikipedia.org/wiki/Smooth_muscle_tissue)
+
+<fn id=fn8><a href=#bn8>^</a>Beta-2 Overview</fn>
+
+[https://en.wikipedia.org/wiki/Beta-2_adrenergic_receptor](https://en.wikipedia.org/wiki/Beta-2_adrenergic_receptor)
+
+<fn id=fn9><a href=#bn9>^</a>Other Mechanisms</fn>
+
+We can also go one level 'lower' than receptors, and play with things like ion channels. Example: [https://en.wikipedia.org/wiki/Calcium_channel_blocker](https://en.wikipedia.org/wiki/Calcium_channel_blocker)
+
+<fn id=fn10><a href=#bn10>^</a>Propranolol</fn>
+
+[http://www.theatlantic.com/magazine/archive/2008/08/in-defense-of-the-beta-blocker/306961/](http://www.theatlantic.com/magazine/archive/2008/08/in-defense-of-the-beta-blocker/306961/)
+
+<fn id=fn11><a href=#bn11>^</a>Fibrinolysis</fn>
+
+How small thrombemboli are broken up in the lungs: [https://books.google.com/books?id=4V_2AAAAQBAJ&pg=PA149&lpg=PA149#v=onepage&q&f=false](https://books.google.com/books?id=4V_2AAAAQBAJ&pg=PA149&lpg=PA149#v=onepage&q&f=false)
+
+<fn id=fn12><a href=#bn12>^</a>Pulmonary Embolism</fn>
+
+[https://en.wikipedia.org/wiki/Pulmonary_embolism](https://en.wikipedia.org/wiki/Pulmonary_embolism)
+
+<fn id=fn13><a href=#bn13>^</a>DVT</fn>
+
+[https://en.wikipedia.org/wiki/Deep_vein_thrombosis#Pathophysiology](https://en.wikipedia.org/wiki/Deep_vein_thrombosis#Pathophysiology)
+
+<fn id=fn14><a href=#bn14>^</a>Vena Cava Filters</fn>
+
+One study that claims inferior vena cava filters don't improve mortality: [http://jama.jamanetwork.com/article.aspx?articleid=2279714](http://jama.jamanetwork.com/article.aspx?articleid=2279714)
+
+<fn id=fn15><a href=#bn15>^</a>ECMO Overview</fn>
+
+[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4522501/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4522501/)
+
+<fn id=fn16><a href=#bn16>^</a>LVAD Overview</fn>
+
+This field is so rapidly changing that reviews are constantly out of date!
+Artificial Hearts: [https://en.wikipedia.org/wiki/Artificial_heart](https://en.wikipedia.org/wiki/Artificial_heart)
+Ventricular Assist Devices: [https://en.wikipedia.org/wiki/Ventricular_assist_device](https://en.wikipedia.org/wiki/Ventricular_assist_device)
+A review of VADs from 2011: [http://circ.ahajournals.org/content/124/12/e305.full](http://circ.ahajournals.org/content/124/12/e305.full)
+
+<fn id=fn17><a href=#bn17>^</a>Monro-Kellie Doctrine</fn>
+
+[http://radiopaedia.org/articles/monro-kellie-hypothesis](http://radiopaedia.org/articles/monro-kellie-hypothesis)
+
+<fn id=fn18><a href=#bn18>^</a>CSF</fn>
+
+[https://books.google.nl/books?id=sor_roKluskC&pg=PA174&lpg=PA174#v=onepage&q&f=false](https://books.google.nl/books?id=sor_roKluskC&pg=PA174&lpg=PA174#v=onepage&q&f=false)
+
+<fn id=fn19><a href=#bn19>^</a>Cerebral Edema</fn>
+
+Overview of cerebral edema from an imaging perspective: [http://www.ajronline.org/doi/pdf/10.2214/AJR.11.8081](http://www.ajronline.org/doi/pdf/10.2214/AJR.11.8081)
+
+<fn id=fn20><a href=#bn20>^</a>Blood Neurotoxic</fn>
+
+[https://books.google.com/books?id=tAgNQ2rAj_8C&pg=PA173&lpg=PA173#v=onepage&q&f=false](https://books.google.com/books?id=tAgNQ2rAj_8C&pg=PA173&lpg=PA173#v=onepage&q&f=false)
+
+<fn id=fn21><a href=#bn21>^</a>BBB Overview</fn>
+
+[http://neuroscience.uth.tmc.edu/s4/chapter11.html](http://neuroscience.uth.tmc.edu/s4/chapter11.html)
+
+<fn id=fn22><a href=#bn22>^</a>Brain Herniation</fn>
+
+[https://en.wikipedia.org/wiki/Brain_herniation](https://en.wikipedia.org/wiki/Brain_herniation)
+
+<fn id=fn23><a href=#bn23>^</a>Cortex Vasculature</fn>
+
+Very nice lecture notes: [http://www.neuroanatomy.wisc.edu/coursebook/cortex.pdf](http://www.neuroanatomy.wisc.edu/coursebook/cortex.pdf)
+Extensive presentation: [http://www.slideshare.net/drnosman/blood-supply-of-the-brain](http://www.slideshare.net/drnosman/blood-supply-of-the-brain)
+
+<fn id=fn24><a href=#bn24>^</a>Epidural Hemorrhage</fn>
+
+[http://www.med.upenn.edu/pipeline/docs/Andreas_Pipeline_1_17.ppt](http://www.med.upenn.edu/pipeline/docs/Andreas_Pipeline_1_17.ppt)
+
+<fn id=fn25><a href=#bn25>^</a>Aqueductal Stenosis</fn>
+
+[https://en.wikipedia.org/wiki/Aqueductal_stenosis](https://en.wikipedia.org/wiki/Aqueductal_stenosis)
+
+<fn id=fn26><a href=#bn26>^</a>EVD</fn>
+
+[https://en.wikipedia.org/wiki/External_ventricular_drain](https://en.wikipedia.org/wiki/External_ventricular_drain)
+
+<fn id=fn27><a href=#bn27>^</a>Lumbar Puncture</fn>
+
+[https://en.wikipedia.org/wiki/Lumbar_puncture](https://en.wikipedia.org/wiki/Lumbar_puncture)
+
+<fn id=fn28><a href=#bn28>^</a>Value of Information</fn>
+
+[http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/The%20Value%20of%20Imperfect%20Information.aspx](http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/The%20Value%20of%20Imperfect%20Information.aspx)
+
+<fn id=fn29><a href=#bn29>^</a>Blood Substitutes Overview</fn>
+
+Both PFC-based and Hb-based: [https://en.wikipedia.org/wiki/Blood_substitute](https://en.wikipedia.org/wiki/Blood_substitute)
+One particular PFC product and a very good general history, Oxycyte: [http://www.popsci.com/scitech/article/2006-11/better-blood](http://www.popsci.com/scitech/article/2006-11/better-blood)
+Specific review of Hb-based subsitutes: [http://emedicine.medscape.com/article/207801-overview](http://emedicine.medscape.com/article/207801-overview)
+and [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728196/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728196/)
+A simple review, which vaught my eye because it mentions milk injections: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738310/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738310/)
+
+<fn id=fn30><a href=#bn30>^</a>Liquid Ventilation</fn>
+
+[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191624/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191624/)

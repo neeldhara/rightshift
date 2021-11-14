@@ -1,0 +1,553 @@
+Title: Towers of Babel - Or Why do humans abandon cities
+----
+Author: Dileep
+----
+Date: November 11th, 2018
+----
+Tags: culture history ruins ancient angkor wat kushan sewers sanitation nuclear nukes greeks assyrians assyria xenophon khmer cambodia
+----
+Text:
+
+> After a bit I got bored and just started burying cheap spoons to
+baffle the archaeologists of the future.
+
+- Bill Bailey
+
+Xenophon, the famous historical figure, was in full retreat. The greek
+army under his command had failed to help Cyrus the younger dethrone
+Artaxerxes II from the Achiminid-Persian throne, and now they were on
+their long trek back home across the deserts of the middle-east. It
+was during this time that they encountered the ruins of huge, ancient
+cities, long abandoned. Xenophon was baffled that the existence such
+large, impressive ruins in these regions was not known to him, a fact
+as queer as the ruins were majestic. He ventured to consult the local
+farmers and shephards camping nearby for information. He records
+thusly in Anabasis,
+
+> After suffering this defeat, the enemy retired, and the Greeks
+marched on safely for the rest of the day. And reached the river
+Tigris. There was a large, deserted city there called Larisa, which
+in the old days used to be inhabited by the Medes. It had walls
+twenty-five feet broad, and a hundred feet high. With a perimeter of
+six miles. It was built of bricks made of clay, with a stone base of
+twenty feet underneath. From here a day's march of 18 miles, brought
+them to a large, undefended fortification, near a city called Mespila,
+which was once inhabited by the Medes. The base of this fortification
+was made of polished stone, in which, there were many shells. It was
+50 feet broad, and 50 feet high. On top of it was built a brick wall
+50 feet in breadth, and a 100 feet high. The perimeter of the
+fortification was 18 miles.
+
+- Xenophon, during the Greek retreat, Anabasis (The Persian Expedition), 400 BC.
+
+Some of these distances have been converted from the ancient Greek
+units. Also, his perimeter estimates were off. But his greatest error
+is in identifying the former inhabitants of said cities. The local
+villagers living off of the land were said to have been uncertain
+about this as well, and had guessed that it could have been the Meads,
+as the Medians were known to have ruled over them before the Acheminid
+Persians took over. But this was dead wrong. The first city,
+identified as Larisa, was in fact the city of Kalhu (the biblical
+Nimrud). And the second city (Mespila), was Nineveh, the late capital
+of the mighty Assyrian empire, which had reigned continuously from
+around 2500 BC to 600 BC.
+
+(image: nineveh_walls.jpg width: 1000 caption: sourced from wikimedia commons)
+
+What Xenophon and his fellow soldiers experienced was a phenomena that
+is completely alien to us modern humans. The Greek city-states were a
+new, fast-evolving global powerhouse at the time. Contemporary Greeks
+would have considered themselves as an advanced civilization at the
+leading edge of knowledge, technology, and sophistication. And yet,
+these Greeks ran into ancient, crumbling ruins, that were larger, more
+imposing, and seemingly more advanced than anything they had seen, or
+could even conceive of back home. And even weirder still, that such
+majesty had been so thouroughly erased from collective memory, that
+not even the local plebeians huddled around a fire in the shelter of
+its shadows a mere two centuries later, could tell you who they
+belonged to.
+
+(image: Nineveh.jpg width: 1000 caption: Henry Layard's image of Nineveh)
+
+A common conceit amongst all human societies to ever exist, including
+our own, has been the belief that "now" is the most advanced period in
+human history. That all of history is a constant, unidirectional march
+forward towards progress in all areas, and that all previous
+iterations of settled existence have been primitive in
+comparison. When we dig the earth to reveal the buried remains of
+civilizations past, we do not expect to find physical artifacts that
+are technologically more advanced than our own. We do not expect to
+find, what I call, Numenera. Such an occurrence bursts some serious
+bubbles and asks tough existential questions. How could something more
+advanced than us, fall? And how could they be completely forgotten?
+And could this happen to us?
+
+The question of memory and cultural amnesia is an important one. The
+following figure of the world map appears in Jared Diamond's book:
+Guns, Germs, and Steel. It is marked with estimated dates for the
+first appearance of "humans" (defined by Mr. Diamond in some specific
+way) at various locations, as well as the directions of the first
+migrations. Most of this occurred at a rather slow pace amongst
+hunter-gatherer societies, and quite a bit of it during an Ice Age. A
+majority of the spread was very likely a slow diffusion in response to
+a strain on local resources due to spiking population densities. And
+yet, for the longest time, no one remembered where they came from, or
+that there were even people there.
+
+(image: human_migration_ggs.png caption: Spread of humanity, Sourced from Guns, Germs, and Steel by Jared Diamond)
+
+Every formerly-isolated tribe we've ever discovered has had its own,
+nearly unique (except in the Jungian sense) creation myth. They have
+always described themselves as "The People," and the few neighboring
+populations they've had contact with as "The Other." There is almost
+never any hint towards the continuity all the way back to Africa, and
+rarely, if at all, towards the most recent ancestral place of origin.
+
+And this is not a case for a linear, bio-evolutionary change in the
+way humans think about time and record-keeping either. The most recent
+date marked on that map is 1000 AD near New Zealand. To quote from
+Guns, Germs, and Steel,
+
+> Scattering over the Pacific Ocean beyond New Guinea and Melanesia
+are thousands of islands deffering greatly in area, isolation,
+elevation, climate, productivity, and geological and biological
+resources. For most of human history those islands lay far beyond the
+reach of watercraft. Around 1200 BC a group of farming, fishing,
+seafaring people from the Bismarck Archipelago north of New Guinea
+finally succeeded in reaching some of those islands. Over the
+following centuries their descendants colonized virtually every
+habitable scrap of land in the Pacific. The process was mostly
+complete by 500 AD, with the last few islands settled around or soon
+after 1000 AD.
+> 
+> ...
+> 
+> Thus, Moriori and Maori societies developed from the same ancestral
+society, but along very different lines. The resulting two societies
+lost awareness even of each other's existence and did not come into
+contact again for many centuries, perhaps for as long as 500
+years. Finally, an Australian seal-hunting ship visiting the Chathams
+en route to New Zealand brought the news to New Zealand of islands
+where "there is an abundance of sea and shellfish; the lakes swarm
+with eels; and it is a land of the karaka berry.... The inhabitants
+are very numerous, but they do not understand how to fight, and have
+no weapons." That news was enough to induce 900 Maori to sail to the
+Chathams."
+
+- Jared Diamond, in Guns, Germs, and Steel
+
+The fragmentation of human societies into disjoint island-tribes in
+Polynesia that ceased communications with each other, is a modern
+replay of the Tower of Babel parable. But this article is primarily
+concerned with settled civilizations. Big cities are supposed to be
+further downstream from record keeping on the tech tree. Surely,
+writing is a prerequisite for the functioning of higher tier
+institutions and beureaucracies like trade, taxation, architecture and
+city planning, and general resource management. The theory goes that
+hunter-gatherers turned in to farmers, leading to specialization and
+free time. But this narrative doesn't withstand scrutiny.
+
+(image: indus_writing.jpg caption: A seal from the Indus valley civilization, sourced from (link: https://indusrivervalleycivilizationwhap.weebly.com text: indusrivervalleycivilizationwhap.weebly.com))
+
+Writing systems are believed to have developed independently in the
+Fertile Crescent, in China, and in the (link:
+https://www.youtube.com/watch?v=OQLG0RF5UZY text: Mayan Mesoamerica)
+at different times. The earliest writing system ever developed is the
+Sumerian cuneiform, and dates back to at least 3000 BC. Most ancient
+Sumerian artifacts that bear written inscriptions are rather boring
+bureaucratic accounts about trade goods & agreements, or
+administrative memos. Only select few court officials were literate,
+and writing really wasn't associated with literature the way we think
+of it. Not even religious stories made it into written form until at
+least thousand years after first usage. The complex mathematical
+knowledge that we would assume as a prerequisite for architecture and
+city planning seem to have been embodied entirely in ritualistic
+actions rather than manuals, and were perhaps passed down only through
+specialized, possibly hereditary, vocational apprenticeship (This
+might actually be an important point for resolving our dilemma).
+
+The best evidence for constructed human settlements that predate
+writing comes from the Turkish tell known as (link:
+https://en.wikipedia.org/wiki/Göbekli_Tepe text: Göbekli Tepe). The
+site consists of several layers of pillared, stone chambers, each
+built on top of an older, earlier chamber that had been deliberately
+backfilled with gravel, stone tools, and animal bones. The lowest
+level thus far excavated has been dated back to about 9100 BC, which
+not only predates writing, but also agriculture and animal
+husbandry. The dating is based on Radio-carbon dating of charcoal, and
+merely puts a conservative bound on how old the actual structures
+might be.
+
+(image: 1024px-Göbekli_Tepe,_Urfa.jpg caption: Göbekli Tepe, sourced from wikimedia commons)
+
+Göbekli Tepe is prime fodder for fringe believers of hyper-advanced,
+Ice-Age human civilizations. But even without the more fanciful
+interpretations, the hard data is confounding in itself. Construction
+projects of such scale would have required a massive workforce that
+would not have been able to contribute to food-gathering, and would
+therefore had to have been fed by others. Such stratification within
+human groups was thought to be impossible in non-agrarian times. One
+could also muse about the motivations and incentives (economic and
+psychological) at play in the investment and time commitment. Also
+cute are the simple facts like the fact that the concept of stairs and
+elongated benches predate pottery, and are at least 11,000 years
+old. The entire wikipedia article on (link:
+https://en.wikipedia.org/wiki/Göbekli_Tepe text: Göbekli Tepe) is a
+must read. The following are some excerpts from the same that bear
+relevance to our discussion,
+
+> The reliefs depict mammals such as lions, bulls, boars, foxes,
+gazelles and donkeys; snakes and other reptiles, arthropods such as
+insects and arachnids; and birds, particularly vultures. At the time
+the edifice was constructed, the surrounding country was likely to
+have been forested and capable of sustaining this variety of wildlife,
+before millennia of settlement and cultivation led to the near–Dust
+Bowl conditions prevalent today.
+
+- Sourced from (link:
+  https://www.smithsonianmag.com/history/gobekli-tepe-the-worlds-first-temple-83613665/
+  text: The Smithsonian)
+
+(image: tepe_pillars.jpg caption: Pillars from Göbekli Tepe, sourced from wikimedia commons)
+
+> Few humanoid figures have appeared in the art at Göbekli
+Tepe. However, some of the T-shaped pillars have human arms carved on
+their lower half, suggesting to site excavator Schmidt that they are
+intended to represent the bodies of stylized humans (or perhaps
+gods). Loincloths also appear on the lower half of a few pillars. The
+horizontal stone slab on top is thought by Schmidt to symbolize
+shoulders, which means the figures were left headless. Whether they
+were intended to serve as surrogate worshippers, symbolize venerated
+ancestors, or represent supernatural, anthropomorphic beings is not
+known.
+
+> While the site formally belongs to the earliest Neolithic (PPNA), up
+to now no traces of domesticated plants or animals have been
+found. The inhabitants are assumed to have been hunters and gatherers
+who nevertheless lived in villages for at least part of the year.
+
+> The surviving structures, then, not only predate pottery, metallurgy,
+and the invention of writing or the wheel, but were built before the
+so-called Neolithic Revolution, i.e., the beginning of agriculture and
+animal husbandry around 9000 BCE. But the construction of Göbekli Tepe
+implies organization of an advanced order not hitherto associated with
+Paleolithic, PPNA, or PPNB societies. Archaeologists estimate that up
+to 500 persons were required to extract the heavy pillars from local
+quarries and move them 100–500 meters (330–1,640 ft) to the site. The
+pillars weigh 10–20 metric tons (10–20 long tons; 11–22 short tons),
+with one still in the quarry weighing 50 tons.
+
+> Around the beginning of the 8th millennium BCE Göbekli Tepe lost its
+importance. The advent of agriculture and animal husbandry brought new
+realities to human life in the area, and the "Stone-age zoo"
+(Schmidt's phrase applied particularly to Layer III, Enclosure D)
+apparently lost whatever significance it had had for the region's
+older, foraging communities. But the complex was not simply abandoned
+and forgotten to be gradually destroyed by the elements. Instead, each
+enclosure was deliberately buried under as much as 300 to 500 cubic
+meters (390 to 650 cu yd) of refuse consisting mainly of small
+limestone fragments, stone vessels, and stone tools. Many animal, and
+even human, bones have also been identified in the fill. Why the
+enclosures were buried is unknown, but it preserved them for
+posterity.
+
+> Schmidt engaged in some speculation regarding the belief systems of
+the groups that created Göbekli Tepe, based on comparisons with other
+shrines and settlements. He assumed shamanic practices and suggested
+that the T-shaped pillars represent human forms, perhaps ancestors,
+whereas he saw a fully articulated belief in gods only developing
+later in Mesopotamia, associated with extensive temples and
+palaces. This corresponds well with an ancient Sumerian belief that
+agriculture, animal husbandry, and weaving were brought to mankind
+from the sacred mountain Ekur, which was inhabited by Annuna deities,
+very ancient gods without individual names. Schmidt identified this
+story as a primeval oriental myth that preserves a partial memory of
+the emerging Neolithic.
+
+So here are some reasons why large settlements that took a lot of time
+and effort to build and maintain could be abandoned forever. A slow
+but drastic change in local climate and biomass, which could have been
+brought about by the increase in population density due to the
+settlement itself, or through a competing innovation (agriculture)
+rendering the current lifestyle and paradigm unsustainable. The
+deliberate backfilling and rebuilding of the presumed religious sites
+might also suggest a philosophical outlook (and I am speculating here)
+centered on mortality and impermanence that has stay with us to this
+day, and is reflected in the ritual burning of low-entropy works of
+art at the end of recurring festivals a la Hindu and Shinto religious
+processions, as well as Burning Man.
+
+(youtube: https://www.youtube.com/watch?v=Md6SuPdA-mo)
+
+What determines the threshold between a cave or village settlement
+from a city? A physicist's approach might involve recognizing that all
+human activity, including that of mere subsistence, necessarily
+consumes resources and excretes waste on some time and length scales
+determined by physics and biology. In dispersed, low-density tribes,
+all units within the collective have ready access to nature's raw
+materials, as well as means of disposal of the often biodegradable
+refuse. But as population density starts to increase, the immediate
+environment of most individuals who do not dwell at the physical edge
+of such settlements, would consist predominantely of other individuals
+rather than untamed nature. Therefore, for such densities to be
+sustainable, dedicated systems for continuous transfer of resources
+into every nook and cranny of the settlement from the outside, as well
+as the flow of waste outward, are very necessary. And geometry
+dictates that these systems should be fractal-like or dendritic in
+structure, much like the fluid-circulatory systems and neural pathways
+in living matter, or river topologies in deltas, or indeed, the
+physical fiber-optic architecture of the datalines that serve large
+computer networks.
+
+(image: cordata_flower_veination.jpg width: 800 caption: Flower veination, sourced from wikimedia commons)
+
+> Water flows in. Shit flows out. It's fucking magic.
+
+- Gabriel Morton
+
+The importance of plumbing and sanitation is often understated as far
+as technological milestones go. It is the primary marker for telling
+planned and unplanned cities and quarters apart.
+
+(image: sewer1.png caption: Storm drains in Saitama, Japan. Sourced from (link: https://inhabitat.com/new-submission-33/attachment/12638/ text: inhabit.com))
+
+Large settlements needed to nail this aspect of city planning, either
+through central planning, or organic kludging, to last any length of
+time. There is a reason that Roman aqueducts were attacked by raiding
+Germanic tribes during the fall of the Roman Empire. This would also
+suggest a great-filter argument for abandonment of cities, whereby a
+city would uncontrollably grow until the local population density
+exceeded the capacity of its tech level to handle, rendering it more
+vulnerable to natural variation in resource and climate conditions
+that strained its infrastructure (hence the title of the article). It
+is often claimed that up until the 19th century, cities had a lower
+birth-rate than death-rate, and had to be sustained by a constant
+influx from the rural countryside. It took a revolution in
+epidemiology and a raising of public consciousness about the
+importance of good sanitation to buck that trend. Virtually the entire
+city of Chicago was said to have been raised by over 6 feet, in order
+to construct its sewer system, as is detailed in this excellent
+video-essay by ApexGames,
+
+(youtube: https://www.youtube.com/watch?v=x96BncWmVig width: 600 height: 400)
+
+The good folk at Extra Credits tell a similar story for London,
+
+(youtube: https://www.youtube.com/watch?v=TLpzHHbFrHY width: 600 height: 400)
+(youtube: https://www.youtube.com/watch?v=1jlsyucUwpo width: 600 height: 400)
+(youtube: https://www.youtube.com/watch?v=9NVT6iZP2qg width: 600 height: 400)
+(youtube: https://www.youtube.com/watch?v=cba7di0eL8I width: 600 height: 400)
+
+And lest we assume that this is a solved problem, here is a beautiful
+piece by Vice Media on waste processing in modern-day New York,
+
+(youtube: https://www.youtube.com/watch?v=ZiNiBZiR_uA width: 600 height: 400)
+(youtube: https://www.youtube.com/watch?v=EVGdmE4_h4c width: 600 height: 400)
+(youtube: https://www.youtube.com/watch?v=Ra47l7fihZU width: 600 height: 400)
+
+A metropolis like New York would immediately come to a stand-still if
+the electricity failed, or if the underground transit was shut down
+for a day. What's impressive about the Vice piece was the reliance of
+these systems on select individuals to function. One could, in
+principle, layout all the details and instructions necessary to keep
+New York functioning in a massive user's manual. But should key
+person's from the city's population suddenly disappear, the remaining
+members would scarcely be capable of developing the expertise to
+restore everything to normalcy in a timely manner, and the settlement
+would have to be abandoned, or rapidly scaled down. Massive amounts of
+detailed, highly-contextual knowledge cannot be learned by single
+individuals, but has to be preserved and passed on collectively via
+embodied, articulated ritual. And a lot of the motivation and
+incentive to live in a high-population density area is intimately tied
+to serving the niche needs of the dense population itself. A city that
+wasn't built in a day cannot be resettled in a day.
+
+(youtube: https://www.youtube.com/watch?v=L4nNHt-CuEw width: 600 height: 400)
+
+(youtube: https://www.youtube.com/watch?v=5Nhsp26bN8U width: 600 height: 400)
+
+Many ancient cities have been devastated by disease epidemics and
+invading/marauding armies, never to recover. But only recently has the
+prospect of losing all human settlements in a single conflict become a
+matter of serious concern. We've all heard of ideas like "being bombed
+back to the stone age" and "the next world war being fought with
+sticks and stones," but it takes a lot of exposure to scale and some
+meditative introspection to truly grasp the danger. Even if a majority
+of the human population were to survive a nuclear war, it wouldn't
+take much to irrepairably set the clock back for everyone for a very
+long time.
+
+(youtube: https://www.youtube.com/watch?v=RMo7jUs0GMs width: 600 height: 400)
+(youtube: https://www.youtube.com/watch?v=Y__dxTaGEp0 width: 600 height: 400)
+(youtube https://www.youtube.com/watch?v=1OqND63Bfxs width: 600 height: 400)
+
+We instinctually believe that our civilization does not live in the
+buildings, but in the values we hold in our heads. But the ancients
+knew better. Values only perpetuated through collective habitual
+actions within the context of and in relation to lived spaces. One of
+the first, non-bureaucratic and poetic uses of writing systems was for
+imperial propaganda,
+
+> The tombs of their earlier and later kings who did not fear Ashur and
+Ishtar, my lords, and who had plagued my fathers, I destroyed. I
+devastated. I exposed to the sun. Their bones I carried off to
+Assyria. I layed restlessness upon their shades. I deprived them of
+food offerings and water. For a distance of a month and twenty-five
+days of journey I devastated the provinces of Elam. Salt and prickly
+plants I scattered over them. The dust of their cities I gathered
+together and took to Assyria. The noise of the people, the tread of
+cattle and sheep, the glad shouts of rejoicing, I banished from its
+fields. Wild asses, gazelles and all kinds of beasts of the plain I
+caused to lie down among them, as if at home.
+
+- Ashurbanipal, on defeating the Elamites, 639 BC. Source: "The
+Ancient Assyrians" by Mark Healy
+
+> As a hurrican proceeds, I attacked it. And like a storm I overthrew
+it. Its inhabitants young and old, I did not spare. And with their
+corpses I filled the streets of the city. The town itself and its
+houses, from their foundations to their roofs I devastated. I
+destroyed, by fire I overthrew. In order that in future, even the soil
+of its temples would be forgotten, by water I ravaged it. I turned it
+into a pasture. To quite the heart of Ashur, my lord, that people
+should bow in submission before his exaulted might, I removed the soil
+of Babylon, for presents to the most distant peoples. And I stored up
+some of it, in a covered jar.
+
+- Sennacherib, son of Sargon, on the destruction of Babylon
+
+Historian Gwynne Dyre aptly exclaimed that Sennacherib basically nuked
+Babylon. And as did the Mongols when the Tigris ran red with blood and
+black with ink. Or indeed, when Rome sacked Carthage. Or when the
+thundering Dardanelles cannons of the Ottomans brought down the
+Byzantine fortifications of Constantinople, which had protected the
+city for 1,500 years.
+
+And yet, Baghdad prevails! Carthage lives under the Tunisian
+governate. And Istanbul thrives. So perhaps we are too quick to jump
+to romantic notions of abandoned numenera. And to quote this anonymous
+(link:
+https://rebrn.com/re/xenephon-writes-about-huge-abandoned-cities-in-persia-why-didnt-3000741/
+text: "internet historian"),
+
+> Even so, it should be said that Assyria did remain populated, insofar
+as it could sustain self-reliant communities of farmers. Xenophon's
+image of emptiness and desolation is exaggerated. There is some
+archaeological evidence for continued habitation in small parts of the
+former metropolis of Assyria all the way down to the Parthian period,
+and some cities in the area were linked up to the Persian network of
+royal roads, showing they had at least some significance as
+waystations or local administrative centres. Indeed, in his
+description of Kalhu, Xenophon himself notes that some local people
+fled to the top of a crumbling ziggurat at the edge of the city when
+they saw the Greeks approaching, and a few days beyond Nineveh the
+Greek army encountered rural villages that contained "an abundance of
+grain" (Anabasis 3.4.18). Clearly, old Assyria was not entirely
+abandoned.
+
+All of these concepts amalgamate nicely into a single package in the
+case of Angkor Wat, one of the largest religious monuments in the
+world. The story goes that Henri Mouhot, a French naturalist, set off
+at around 1860 to explore the mostly uncharted forests of Siam,
+Cambodia, and Laos and collect botanical and insect specimens. His
+expedition was being funded by the Royal Geographical Society and the
+Zoological Society of London. One one such outing, which involved some
+significant hardships and threats from wild animals, he is said to
+have come across Angkor - a vast area filled with ruins of temples,
+moats, terraces, and pools. He kept detailed records and drawings of
+the ruins in his travel journals, which were published after he died
+from Malaria in the same jungles, resulting in the popularization of
+Angkor in the western hemisphere.
+
+(image: sketch_01.jpg)
+(image: sketch_02.jpg)
+(image: sketch_03.jpg caption: Sketches of Angkor ruins by Henri Mouhot, sourced from wikimedia commons)
+PIC sketches by Henri Mouhot
+
+> One of these temples—a rival to that of Solomon, and erected by some
+ancient Michael Angelo—might take an honourable place beside our most
+beautiful buildings. It is grander than anything left to us by Greece
+or Rome, and presents a sad contrast to the state of barbarism in
+which the nation is now plunged.
+
+- Henri Mouhot, Voyage dans les royaumes de Siam, de Cambodge, de Laos
+
+Information about the ruins and their former occupants was soon put
+together using the travel accounts of a visiting Chinese diplomat,
+Zhou Daguan, from the 13th century. The temple complex was a mausoleum
+constructed under the patronage of the Khmer ruler Suryavarman II in
+the early part of the 12th century. Less than 30 years after his
+death, the Angkor was sacked by the Chams, causing his successor
+Jayavarman VII to move the capital a few kilometers north. The next
+few centuries were considered a bloody period of war in the region,
+not least because of the rise of Siam as a new competing empire
+further up north. The repeated raids and dwindling incentives for
+large populations to inhabit the area were considered the common
+causes for the abandoment of Angkor.
+
+(image: angkor.jpg caption: Angkor Wat, sourced from wikimedia commons)
+
+In December 2015, however, researchers at the University of Sydney
+used new satellite imagery and plane-mounted ground-penetrating LiDAR
+to discover many, previously undiscovered ruins in the area, and most
+importantly, a vast network of canals, reservoirs, and other
+hydraulics infrastructure. There was evidence of infrastructure
+collapse and stopgap solutions to meet stressful demands. New theories
+emerged, centered around the canals as conduits for transportation of
+building materials, trade, and irrigation. The aquatic projects seemed
+necessary for supporting the large population density. But the
+intensive development seemed to have affect the water table and
+flooding patterns. Continued diversion of resources to ambitious
+construction projects, and a changing climate may have overstrained
+the waterways to the point where ad-hoc repairs kludged on the go
+began to systematically fail, lending to another hypothesis for said
+abandonment.
+
+(youtube: https://www.youtube.com/watch?v=o6Kq4XF1zKU)
+
+And finally, to tie up that nagging lose end, Angkor was never truly,
+fully abandoned in a complete sense. The Zoological Society may have
+tried to push Henri Mouhot as the discoverer of Angkor to generate
+press, but there have been continuous accounts by European merchants
+and friars, and Japanese Buddhist pilgrims all throughout the
+intervening period. By the 17th century, Angkor Wat had turned from a
+Hindu temple to a Buddhist one. Whether or not the change in state
+religion precipitated, or was in turn caused, by the Khmer's move away
+from opulent architechtural endeavors is up for debate.
+
+(image: monk_dwelling.jpg caption: Monk dwellings near Angkor, 1909
+photograph by Pierre Dieulefils. (link: Also see:
+https://alisonincambodia.wordpress.com/2013/09/ text: source))
+
+(image: refugees.jpg caption: Refugees in 1970s living in
+Angkor. Published in "A Century in Asia" by Catherine Clémentin-Ojha
+and Pierre-Yves Manguin. (link: Also see:
+https://alisonincambodia.wordpress.com/2013/09/ text: source))
+
+
+So maybe we are partly to blame for the "Abandoned Ancient Ruins"
+phenomena. The notion is too romantic for us to wish it not to be
+true. Henri mistakenly dated the structures to the Roman times, and
+attributed them to an ancient extinct civilization predating the
+Khmers. Striking, since descendants of the Khmer were still in the
+area during his time. He wrote,
+
+> At Ongcor, there are ...ruins of such grandeur... that, at the first
+view, one is filled with profound admiration, and cannot but ask what
+has become of this powerful race, so civilized, so enlightened, the
+authors of these gigantic works?
+
+Had the local villagers read his work, they would have remarked, "That
+was us! We are right here you git!!" The ruins had become part of the
+landscape of the local peasantry who had cultivated those lands for
+all these years. They treat the temple ruins as if "it built itself,"
+or that "they have always been there, since the dawn of time."  Don't
+we all?
+
+Extra credit homework: (link:
+https://readcomiconline.to/Comic/The-Sandman-1989/Issue-50?id=14275
+text: Read Sandman issue 50.)
+
+Extra extra credit: Research the Kushan empire
+
+

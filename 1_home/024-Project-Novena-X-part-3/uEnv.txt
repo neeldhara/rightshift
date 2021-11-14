@@ -1,0 +1,8 @@
+rmlcd=true
+keep_lcd=true
+preboot=usb start
+stdout=serial,vga
+stderr=serial,vga
+bootargs=resume=/dev/mapper/crypt-swap console=tty0,115200
+earlyhook=if test "$rootdev" = "PARTUUID=4e6f7653-03"; then setenv rootdev /dev/mapper/crypt-root ; fi
+finalhook=setenv console-bootarg tty0; if test "$rootdev" = "/dev/mapper/crypt-root"; then setenv initrd_addr_r 0x119a0000 ; fatload ${bootsrc} ${bootdev} ${initrd_addr_r} uInitrd ; setenv bootargs resume=/dev/mapper/crypt-swap root=/dev/mapper/crypt-root console=tty0,115200 ; fi
