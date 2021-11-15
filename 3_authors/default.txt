@@ -8,12 +8,6 @@ Three ex-classmates from KVIISc, Bangalore, now gone their separate ways,hoping 
 
 *C. Karthik:* A graduate from IIT-Guwahati with a bachelor’s degree in  Mechanical  Engineering. Attending grad school at UIUC.
 
-[*Neeldhara Misra:*](http://people.iitgn.ac.in/~neeldhara/) A graduate 
-from IMSc (Chennai),  spent some time at IISc (Bangalore) before moving 
-to IIT Gandhinagar, where she is still trying her hand at algorithm design.
+[*Neeldhara Misra:*](http://people.iitgn.ac.in/~neeldhara/) A graduate from IMSc (Chennai),  spent some time at IISc (Bangalore) before moving to IIT Gandhinagar, where she is still trying her hand at algorithm design.
 
-[*Dileep V. Reddy:*](https://dileepvr.github.io/) A graduate from
-IIT-Madras with a bachelor’s degree in Electrical Engineering, and a
-Masters in Communications. He then earned a PhD in Quantum Optics (shooting
-lasers at avalanche photodiodes) at the University of Oregon. Today he does
-something something nanophotonics at NIST-Boulder.
+[*Dileep V. Reddy:*](https://dileepvr.github.io/) A graduate from IIT-Madras with a bachelor’s degree in Electrical Engineering, and a Masters in Communications. He then earned a PhD in Quantum Optics (shooting lasers at avalanche photodiodes) at the University of Oregon. Today he does something something nanophotonics at NIST-Boulder.
