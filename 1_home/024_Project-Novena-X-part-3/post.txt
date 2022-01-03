@@ -1,4 +1,3 @@
-
 Title: Project Novena-X Part 3: Encrypted Swap, LCD through LVDS, and more physical chassis design
 ----
 Author: Dileep
