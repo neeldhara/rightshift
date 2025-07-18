@@ -6,7 +6,7 @@
 ## Table of Contents
 
 28. [Project Novena-X Part 6: PCBs finished, fun with i2c bus, and how to
-    keep the lid open](1_home/027_Project-Novena-X-part-6/post.md)
+    keep the lid open](1_home/028_Project-Novena-X-part-6/post.md)
 
 27. [Project Novena-X Part 5: PCB design, front panels, and piano hinges](1_home/027_Project-Novena-X-part-5/post.md)
 
@@ -44,7 +44,7 @@
 
 12. [On Free-Energies and "Higher-Learning"](1_home/012_On-Free-Energies-and-Higher-Learning/post.md)
 
-11. [Blink, Morse](1_home/011_Blink_Morse/post.md)
+11. [Blink, Morse](1_home/011_Blink-Morse/post.md)
 
 10. [Why are you producing so few red blood cells today?](1_home/010_Why-are-you-producing-so-few-red-blood-cells-today/post.md)
 

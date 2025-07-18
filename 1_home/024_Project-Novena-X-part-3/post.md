@@ -1,1 +1,179 @@
-024_Project-Novena-X-part-3/post.txt
+Title: Project Novena-X Part 3: Encrypted Swap, LCD through LVDS, and more physical chassis design
+----
+Author: Dileep
+----
+Date: September 06, 2015
+----
+Tags: open-hardware open-source linux novena software NSA hacking hacker electronics cryptography security machine laptop DIY
+----
+Text:
+
+
+(image: fig01.jpg width: 600 caption: PCB-800099 LCD driver board  CN1 port pinout)
+
+Before I begin, I would like to point out that <del>Kosagi has finally decided to sell-off their surplus battery boards on (link: https://www.crowdsupply.com/sutajio-kosagi/novena text: Crowd Supply popup: yes). So if this series eventually encourages anyone to try and build their own machine, then hopefully they add to the demand for printing and assembling more hardware, and possibly result in improved versions.</del> nope, sold out. DANG IT!!!
+
+# Dealing with encrypted swap
+
+In the previous posting, I alluded to a problem with recreating a random passphrase for the swap partition at every boot, and linked to (link: http://madduck.net/docs/cryptdisk/ text: Madduck's solution popup: yes) to the problem. Applying  it to Novena is straight forward. Note that in our Debian installation by default, commands like ```swapoff``` and ```mkswap``` can only be executed as root. One cannot execute them even with ```sudo``` for safety reasons. To go about using the ```decrypt_derived``` script, execute the following in a command line terminal:
+
+```
+> sudo su
+> swapoff /dev/mapper/crypt-swap
+> cryptsetup luksClose crypt-swap
+> dd if=/dev/urandom of=/dev/sda2
+> /lib/cryptsetup/scripts/decrypt_derived crypt-root | cryptsetup luksFormat /dev/sda2 --key-file -
+> /lib/cryptsetup/scripts/decrypt_derived crypt-root | cryptsetup luksOpen /dev/sda2 crypt-swap --key-file -
+mkswap /dev/mapper/crypt-swap
+```
+
+To activate the swap, execute ```> swapon``` as root. To check if the swap partition is indeed being used, see the output of ```> cat /proc/swaps```. We need to do something extra to ensure that the swap partition is activated during every boot. This is a bit tricky as current versions of ```systemd``` (which is the default system and service management utility for our installation, and handles automated tasks) still have trouble dealing with ```cryptsetup``` scripts when it comes to mounting partitions. Therefore, while modifying the ```/etc/crypttab``` and ```/etc/fstab``` entries for the swap partition, one must throw in the ```noauto``` option like so:
+
+```
+/etc/crypttab:
+    crypt-swap	/dev/sda2		crypt-root	luks,noauto,keyscript=/lib/cryptsetup/scripts/decrypt_derived
+
+/etc/fstab:
+    /dev/mapper/crypt-swap   swap                 swap       sw,noauto	    0  0
+```
+
+So instead of relying on these files to perform our mount, we will use a user-created shell script, and get ```systemd``` to execute it during startup immediately after boot, and turn the swap on that way. First, create a new file ```/usb/lib/systemd/scripts/mntswap.sh``` with the contents:
+
+```
+#!/bin/bash
+
+cryptdisks_start crypt-swap;
+swapon /dev/mapper/crypt-swap;
+```
+Make the script executable with ```> sudo chmod 755 /usb/lib/systemd/scripts/mntswap.sh```. You may test its working by turning swap off and executing it manually. Then, create a systemd service file ```/usr/lib/systemd/user/cryptswapmnt.service```, with the contents:
+
+```
+[Unit]
+Description=Calls cryptdisks_start to use keyscript for swap from /etc/crypttab
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/lib/systemd/scripts/mntswap.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Now enable the service using ```> sudo systemctl enable cryptswapmnt.service```. This should make sure that the script ```mntswap.sh``` gets executed after booting everytime. You may test this by rebooting your machine. Only one little modification is required to make sure that the kernel knows where to look for a resume image in case of hibernation. For this, add the line:
+
+```
+bootargs=resume=/dev/mapper/crypt-swap
+```
+To ```/boot/uEnv.txt``` before the ```earlyhook``` line. Now the encrypted swap issue has been resolved. To actually test it, I'd need either one of the battery board or the senoko passthrough board. Let me get back to you on that on a later date.
+
+
+# Getting an oldschool LCD panel to work through the LVDS port
+
+This turned out to be (link: http://www.kosagi.com/forums/viewtopic.php?id=303 text: more of an ordeal popup: yes) than I had first expected (hence the delay in posting). The main problem is that eventhough Novena natively supports an LVDS interface, modern LCDs use a different eDP interface. Therefore, Kosagi released an eDP adapter board as a middle interface, and centered their software design around it.
+
+(image: fig02.jpg width: 600 caption: IT6251 chipset based eDP adapter board, sourced from www.kosagi.com)
+
+I have been meaning to build my laptop with a 10" PixelQi display. PixelQi is a now defunct company that hedged their bets on transreflective LCD technology. Their screens had a reflective element behind each pixel, which allowed these screens to function with high contrast in bright daylight without the need for the backlight being turned on (and with no glare). This had the added benefit of low power usage. Ideally, the computer should include separate ambient light-level detectors that could be used to measure the amount of light hitting the screen, and adjust the backlight brightness accordingly to minimize power usage while maintaining image quality. Unfortunately, all other companies just invested in brighter and more efficient backlights, and the transreflective LCD idea got buried in the graveyard of digital innovations that lost their footing. Quite a few of these screens were made, and many of them are still floating around in online stores such as (link: http://www.ebay.com text: ebay popup: yes). I just wanted to be able to turn the backlight completely off when in bright sunlight. So I bought my PixelQi LCD along with a HDMI-to-LVDS controller (LCD driver) board from (link: http://www.adafruit.com/products/1303 text: Adafruit popup: yes), which I have been using with the Novena board as an external HDMI monitor thus far.
+
+The challenge is to remove the LCD driver board (and its associated power supply) from the setup entirely. During this operation, since the LCD will be out of action until the process is complete, if another HDMI monitor is not available, all Novena software manipulations will have to be performed via the UART debug port (see earlier posts) or via an SSH connection to the machine. For starters, we will need someway of making the physical connections from the LCD panel to the LVDS port on the Novena motherboard. the LVDS port is a 54-pin FFC/FPC connector. To interface with that, I purchased a 50-pin FPC flex-ribbon cable, a 50-pin FPC surface mount connector, and a breakout board from Adafruit:
+
+(image: fig03.jpg width: 800 caption: FPC connectors and breakout boards from Adafruit industries)
+
+As for the LCD panel size, the (file: PCB800099_adafruit_lcd_driver.pdf text: LCD driver board) came with an IPEX-20453-040T-01 flat cable connector with broken out wire leads. To mate these two, we will need their pinouts, which can be found in the (link: http://bunniefoo.com/novena/pvt2_release/SCH-novena_pvt2.PDF text: Novena) and the (file: pixel_qi_nantasket_spec_pub1_0.pdf text: PixelQi) datasheets.
+
+(image: fig04.jpg width: 800 caption: IPEX LCD connector and the LVDS port pinout from PVT2 datasheet)
+
+Note that not all the pins need be used. The Novena LCD port is meant for dual-channel LCDs, and we will be using one of the channels (namely, the ```LVDS0 TX 0/1/2``` and the ```LVDS0 CLK``` pins). We won't need the ```LVDS0 TX 3``` pins either, as PixelQi uses the 18-bit data format (instead of 24 bits). The ```LCD XP/YP/XM/YM``` pins (pins one through four) are meant for resistive touchscreens, and we won't be dealing with them now. We will even save the four USB pins (pins 46 to 49) for later (perhaps for the keyboard). The ```I2C3 SCL``` and ```I2C3 SDA``` pins are the clock and data pins meant to connect to the EDID-DDC pins on the LCD panel, but we will not be using them. Their purpose is simple. The LCD panel (much like our motherboard, and any other external monitor) contains an EEPROM chip with 128 bytes of data on it. This data is known as the EDID, and it contains information about the LCD, including clock timings and native resolutions. The PixelQi EDID is actually supplied in text in the datasheet. This data is meant to allow computers to recognize the hardware that they connected to and set their communication parameters accordingly. We however will be hardcoding our Novena to expect our specific LCD panel to be connected to the LVDS port, and hence, will skip the EDID reading stage all together. The Novena Linux kernel is already setup to ignore the LCD EDID data anyway, and changing that will be a herculian task.
+
+While one could directly solder the wire leads from the IPEX connector to Adafruit's breakout board, I decided to add a perfboard in the midst instead. The perfboard had conveniently drilled mounting holes which will become useful later for putting everything in its place on the chassis, and this will allow other components to come inbetween (like a hardware switch to turn the backlight on or off). If I find the time after finalizing the entire design, I might layout and share a custom PCB for this.
+
+(image: fig05.jpg width: 800 caption: Perfboards are your best friends)
+
+Just remember to label your wires, and take special care about positive and negative polarity. Use plenty of flux, and check for shorts using a multimeter. Check the mapping between the LVDS-port pin numbering and the breakout board pin numbering carefully. If your flex cable is conducting on the opposite sides, the numbers may be reverse mapped.
+
+(image: fig06.jpg width: 800 caption: Soldering rosin flux is your best friend)
+
+After this is done, be sure to connect the 50-pin flex cable to the 54-pin LVDS port such that the first four resistive touchscreen pins are skipped, like so:
+
+(image: fig07.jpg width: 800 caption: Skip the resistive touchscreen pins)
+
+Now we need to change things on the software side. The first thing to do is make sure that the ```edp``` flag is set inside the motherboard EEPROM. Check this in the output of ```novena-eeprom```. If not, you can set it by executing:
+
+```
+> novena-eeprom -f es8328,edp,pcie,gbit,hdmi,eepromoops,sataroot -w
+```
+
+Verify that the ```channel-present``` flags are set for both the LVDS channels as well in the output (this should be the default). I went a step further following Sean "Xobs" Cross's (link: http://www.kosagi.com/forums/viewtopic.php?id=303 text: advice popup: yes) and executed:
+
+```
+> novena-eeprom -1 'Modeline "lvds1" 43.97 1024 1072 1104 1184 600 603 613 619 -hsync -vsync' -f es8328,edp,pcie,gbit,hdmi,eepromoops,sataroot -w
+```
+
+for safe measure, eventhough the EEPROM LCD timing information isn't really going to be used. Now comes the hard part. We are going to have to manipulate the device tree.
+
+The file ```/boot/novena.dtb```, which resides in the unencrypted boot partition on the SD card is the device tree. This gets read by U-boot (the bootloader) before loading the linux kernel. We are going to have to modify the device tree to get our LCD to work. For this, we have to download the novena-linux source files from Xobs's (link: https://github.com/xobs/novena-linux text: github repository popup: yes) with:
+
+```
+> git clone https://github.com/xobs/novena-linux.git
+```
+
+This should clone the entire repository into a folder titled ```novena-linux``` in the current location. Change directory into it (```> cd novena-linux```). Xobs and other contributors are constantly working and making changes to the kernel source. Consequently, the default git branch in our cloned repo might be off. You can list all the branches with the command ```> git branch -r```. You can know your current local branch through the output of ```> git branch```. The current branch will have an asterisk next to it. It is important to create a device tree from a modern branch, but not one that is too modern as those will likely be branches meant for testing new features, before implementing them in future releases (accessible via ```aptitude```). At the time of this writing, I switched to the ```v3.19-novena``` branch, as the version number matched my kernel (```> uname -a```). To do this, execute ```> git checout -b origin/v3.19-novena```, or the branch of your choice. Verify that the branch has switched with ```> git branch```. After this, from inside the same folder, execute ```> make novena_defconfig``` to generate the config file. Normally, this is done to compile the kernel, but we only need it to generate the device tree. Next, we have to modify the ```arch/arm/boot/dts/imx6q-novena.dts``` file. First we have to comment out (or delete) the ```it6251``` definition. This is the eDP adapter chipset which the bootloader looks for the ascertain if an LCD has been connected. If not found, then U-boot deletes the LVDS connector and turns the backlight and LCD control voltages off. We also need to comment out (or delete) the ```reg_display``` entry, along with all other references to it (there might be a parenting reference line inside ```reg_lvds_lcd``` that should also be removed). Finally, the ```ldb``` entry needs to be modified to work with PixelQi's native timing. It should read as follows:
+
+```
+&ldb {
+	status = "okay";
+	lvds-channel@0 {
+		fsl,data-mapping = "spwg";
+		fsl,data-width = <18>;
+		status = "okay";
+		display-timings {
+		      1024x600p30 {
+			    clock-frequency = <43970000>;
+		            hactive = <1024>;
+			    vactive = <600>;
+			    hback-porch = <80>;
+			    hfront-porch = <48>;
+			    hsync-len = <32>;
+			    vback-porch = <6>;
+			    vfront-porch = <3>;
+			    vsync-len = <10>;
+			    hsync-active = <0>;
+			    vsync-active = <0>;
+		      };
+		};
+	};
+};
+```
+Here is my (file: imx6q-novena.dts text: imx6q-novena.dts) file for ```v3.19-novena``` branch for reference. After the file has been modified, get back into the ```novena-linux``` folder and execute ```> make dtbs``` to generate the device tree. Then make a backup of the current ```/boot/novena.dtb```, and replace it with the newly generated ```arch/arm/boot/dts/imx6q-novena.dtb``` (with renaming).
+
+The final step is to modify ```/boot/uEnv.txt``` so that U-boot doesn't just redirect its boot messages to the debug UART port upon failing to detect the eDP adapter board. To do this, change its contents to:
+
+```
+rmlcd=true
+keep_lcd=true
+preboot=usb start
+stdout=serial,vga
+stderr=serial,vga
+earlyhook=if test "$rootdev" = "PARTUUID=4e6f7653-03"; then setenv rootdev /dev/mapper/crypt-root ; fi
+finalhook=setenv console-bootarg tty0; if test "$rootdev" = "/dev/mapper/crypt-root"; then setenv initrd_addr_r 0x119a0000 ; fatload ${bootsrc} ${bootdev} ${initrd_addr_r} uInitrd ; setenv bootargs resume=/dev/mapper/crypt-swap root=/dev/mapper/crypt-root console=tty0,115200 ; fi
+```
+
+Note that the bootargs console is being set to ```tty0``` to allow us to enter the encrypted root partition passphrase through a USB keyboard instead of the UART port. This also means the the debug port will be unusable from now on (except in recovery mode), unless we change it back to ```ttymxc1```. Now, upon rebooting, you should see the LCD display come to life without the need for an LCD driver board.
+
+(image: fig08.jpg width: 800 caption: LCD success!)
+
+# Chassis update
+
+(image: fig11.jpg width: 800 caption: Piano hinge)
+
+The work on the chassis continues unabated. I managed to drill clearance holes for 4-40 screws and counter-sink them on the piano hinge. The spacing is asymmetric because I will be cutting off about 0.3" worth of plate material from the half that attaches to the 1/8" thick bottom-box backplate to make room for holes for the motherboard external ports. The distances are such that I will need to shave off some material from the edges of the bottom-box top plate and the top-box bottom plate to accomodate the actual hinge on the inside. I also made room to fit some neoprene rubber sheets on the border of the interior plates so they don't smash into each other when closing the lid.
+
+(image: fig10.jpg width: 800 caption: Tapping the 80/20 extruders)
+
+The 1/8" thick aluminium plates were attached to the 80/20 extruders by tapping the extruders for 1/4"-20 screws, and clearance-holing and counter-sinking the plates. 1/4" undercut flathead screws sat flush with the surface. As for the 1/16" thick broad plates, I relied on steel tab-base weld nuts with an offset and a low-profile barrel from (link: http://www.mcmaster.com text: McMaster-Carr popup: yes), and undercut 8-32 flathead screws (with accompanied clearance holes and counter sinks).
+
+(image: fig09.jpg width: 800 caption: Tab base weld nuts are your best friends)
+
+Eventually, all the electronics will be attached to these broad plates through 4-40 screws, nuts, and standoffs. The machine shop folk (whom I'll credit in the end of the series) are helping me with an interesting design to enable the partial opening of the lid to any angle. Next post will very likely deal with keyboard and resistive touchscreen substituting for a touchpad/trackpad.
+
+I'd like to thank Sean "Xobs" Cross (one of the chief developers of Novena) for his help with the LCD situation. If you have any doubts or troubles with your Novena based project, then I strongly encourage you to visit the (link: http://kosagi.com/forums/ text: Kosagi Forums popup: yes), register, and ask an expert. The community is really very helpful.

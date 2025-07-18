@@ -1,1 +1,148 @@
-011_Blink-Morse/post.txt
+Title: Blink, Morse
+----
+Author: Karthik
+----
+Date: June 7th, 2009
+----
+Tags: all cryptonomicon morse perl
+----
+Text:
+In the novel [*Cryptonomicon*](http://www.harpercollins.com/books/9780060512804/Cryptonomicon/index.aspx?), one of the lead characters finds himself implicated in a (comical) drug bust, and is placed in a jail cell under the watchful (electronic) eyes of hi-tech eavesdroppers. It’s a scene out of a spy novel (although *Cryptonomicon* [isn’t quite that](http://en.wikipedia.org/wiki/Cryptonomicon)), minus the secret agents, plus one savvy Unix sysadmin. He’s given his laptop, to boot.
+
+The rest of this lead-up contains spoilers, so skip to the image if you’re the ear-cupping-and-yelling kind.
+
+The conspirators don’t pull punches; they’re replicating the prisoner’s laptop screen in an adjacent cell with a [Van Eck phreaking](http://en.wikipedia.org/wiki/Van_Eck_phreaking) [setup](http://www.erikyyy.de/tempest/)- so everything he sees, they see. Or do they?
+
+Food, bedding, and a computer- it sounds far too pleasant a way to imprison an inveterate hacker, so he proceeds, ostensibly, to hand over the information they need, carrying out some phony cryptanalysis in the process. And then he conjures a little script, writing out small pieces of code to a file at intermittent intervals. When executed, this script reads out text files (the Real Thing) by _**flashing the LEDs on his keyboard in morse.**_
+
+<div style="text-align:center">
+(image: kbd-white-clipped.png alt:CC-licensed keyboard images are hard to find.)
+</div>
+
+**Wow**. Using intractably complex technology to simulate simple tasks is a fascinating idea, if only because it goes against design. It’s the joy of complete control over a programmable machine- articulated amazingly well in this extract (from Cory Doctorow’s [Little Brother](http://craphound.com/littlebrother/download/)):
+
+> If you’ve never programmed a computer, you should. There’s nothing like it in the whole world. When you program a computer, it does *exactly* what you tell it to do. It’s like designing a machine — any machine, like a car, like a faucet, like a gas-hinge for a door — using math and instructions. It’s awesome in the truest sense: it can fill you with awe.
+
+Flashing text in Morse off a keyboard LED is the sort of thing I can’t read without wanting to do myself. So I did.*
+
+Internet, meet [Morseblink](http://pastebin.com/f71aaa6fd). Assuming even that you’re not digging for gold in the Philippines with several governments seeking your hard drive for forgotten world war II treasures, it’s still perfect for those someone-over-shoulder moments- or minutes- when you’re trying to give the impression of being at work and want to continue catching up on your feeds.
+
+If you know Morse, that is. At least it gives that oft-ignored scroll-lock LED something to do, the poor thing. (Alternatively, you could relegate that annoying system beep to scroll-lock by having it flash instead.It’s an [old idea](http://tldp.org/LDP/lkmpg/2.6/html/x1194.html))
+
+It’s fully customizable, if your binary encoding of choice happens to be different. Alternatively, you could use it to practice your Morse, which is all I’ve found it useful for (yet).
+
+You can download it *LINK BROKEN FOR NOW*[here](http://rightshift.blog/wp-content/uploads/2009/06/morseblinktar.gz) (written in Perl 5.8, should run on all *nix systems).
+
+Below the cut: Some usage tips and a refresher on the Morse code.
+
+<pre>
+
+$ perl morseblink.pl [options] [File1 File2 ... | STDIN]
+options: -do[t] n -da[sh] n -g[ap] n -v[erbose] -e[ncode]
+         -l[ed] [1-32]
+
+         dot:     dot duration (float, seconds)
+         dash:    dash duration (float, seconds)
+         gap:     gap between letters (float, seconds)
+         verbose: report bits being flashed at STDOUT
+         encode:  encode and print, do not flash LED
+         led:     led number from 1-32\. Scrollock is 3.
+
+</pre>
+
+Use the <span style="font-family: courier;">-dot</span> and <span style="font-family: courier;">-dash</span> options to set the duration of the dot and dash flashes. <span style="font-family: courier;">-gap</span> sets the duration of the gap between letters. The gap between words is twice this.
+
+If you want to use this as a Morse tutor, run it with the <span style="font-family: courier;">-v</span> (verbose) flag enabled. To get the encoded output to STDOUT (no flashing), use <span style="font-family: courier;">-e</span> (encode). All of these are optional; it should work fine with the defaults. Finally, it accepts input from STDIN (terminate input with ^D), so you can use the script interactively:
+
+<pre>
+
+$ perl morseblink.pl -v
+test
+^D
+bit 1: "-"
+bit 2: " "
+bit 3: "."
+bit 4: " "
+bit 5: "."
+bit 6: "."
+bit 7: "."
+bit 8: " "
+bit 9: "-"
+bit 10: " "
+$
+
+</pre>
+
+The morse code doesn’t cover all printable ASCII characters. There’s no !, for example. Any unrecognized character in your input is replaced with the code for 0.  
+
+ <pre>
+ " .-..-.  
+ $ …-..-  
+ ‘ .—-.  
+ ( -.–.  
+ ) -.–.-  
+ + .-.-.  
+ , –..–  
+ - -….-  
+ . .-.-.-  
+ / -..-.  
+ 0 —–  
+ 1 .—-  
+ 2 ..—  
+ 3 …–  
+ 4 ….-  
+ 5 …..  
+ 6 -….  
+ 7 –…  
+ 8 —..  
+ 9 —-.  
+ : —…  
+ ; -.-.-.  
+ = -…-  
+ ? ..–..  
+ A .-  
+ B -…  
+ C -.-.  
+ D -..  
+ E .  
+ F ..-.  
+ G –.  
+ H ….  
+ I ..  
+ J .—  
+ K -.-  
+ L .-..  
+ M –  
+ N -.  
+ O —  
+ P .–.  
+ Q –.-  
+ R .-.  
+ S …  
+ T -  
+ U ..-  
+ V …-  
+ W .–  
+ X -..-  
+ Y -.–  
+ Z –..  
+ _ ..–.-  
+</pre>
+
+<pre><span style="font-size: x-small;">*Turned out to be a trivial hack, as simple to  write as it was to describe.</span></pre>
+
+
+* * * * *
+
+## Old comments from the w0rdpress days
+
+**Traums said:**
+*8 June, 2009 at 1:04 pm*
+
+Dang! You beat me to it!!!
+
+**KVM said:**
+*19 September, 2009 at 6:16 pm*
+
+Ah :)
+
